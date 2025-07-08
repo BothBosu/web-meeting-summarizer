@@ -1,10 +1,4 @@
 {
-  "rewrites": [
-    {
-      "source": "/api/(.*)",
-      "destination": "/backend/src/index.js"
-    }
-  ],
   "builds": [
     {
       "src": "backend/src/index.js",
@@ -25,7 +19,7 @@
     },
     {
       "src": "/(.*)",
-      "dest": "/frontend/dist/$1"
+      "dest": "/frontend/dist/index.html"
     }
   ]
 }
