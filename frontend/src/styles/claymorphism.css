@@ -1,0 +1,50 @@
+:root {
+  --clay-primary: #1e3a8a;
+  --clay-light: #3b82f6;
+  --clay-soft: #dbeafe;
+  --clay-white: #ffffff;
+  --clay-radius: 24px;
+  --clay-shadow-soft: 4px 4px 8px rgba(0, 0, 0, 0.1), -4px -4px 8px rgba(255, 255, 255, 0.8);
+  --clay-shadow-inset: inset 2px 2px 5px rgba(0, 0, 0, 0.1), inset -2px -2px 5px rgba(255, 255, 255, 0.8);
+}
+
+.clay-card {
+  background: var(--clay-white);
+  border-radius: var(--clay-radius);
+  box-shadow: var(--clay-shadow-soft);
+  padding: 2rem;
+  margin: 1rem 0;
+  transition: box-shadow 0.2s;
+}
+
+.clay-card-blue {
+  background: linear-gradient(145deg, #e6f0ff, #cde0f5);
+  color: var(--clay-primary);
+  border-radius: var(--clay-radius);
+  box-shadow: var(--clay-shadow-soft);
+}
+
+.clay-header {
+  background: var(--clay-primary);
+  color: var(--clay-white);
+  border-radius: 0 0 var(--clay-radius) var(--clay-radius);
+  box-shadow: 0 4px 16px 0 rgba(30, 58, 138, 0.12);
+  padding: 1.5rem 2rem;
+  font-family: 'Poppins', 'Inter', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.clay-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 40vh;
+  background: linear-gradient(145deg, #e6f0ff, #f0f5ff);
+  border-radius: var(--clay-radius);
+  box-shadow: var(--clay-shadow-soft);
+  margin: 2rem 0;
+  padding: 3rem 2rem;
+} 
